@@ -1,0 +1,6 @@
+interface:
+  display_name: "Write tests"
+  short_description: "Add only tests that cover meaningful runtime behavior"
+  default_prompt: "Use $write-tests to decide which tests this change needs."
+policy:
+  allow_implicit_invocation: true

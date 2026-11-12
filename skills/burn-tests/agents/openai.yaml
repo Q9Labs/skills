@@ -1,0 +1,6 @@
+interface:
+  display_name: "Burn tests"
+  short_description: "Delete most of a test suite and keep only the tests that prove runtime behaviour"
+  default_prompt: "Use $burn-tests to burn the tests in this repo."
+policy:
+  allow_implicit_invocation: true
